@@ -1,96 +1,2136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+
+<head>
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+	<!-- MDB -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+
+	<!-- MDB -->
+	<!-- <script	type="text/javascript" 	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js" ></script> -->
+
+
+	<title>hacked by Jh </title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="title" content=" Community">
+	<meta name="description"
+		content="Community is the Community of Coding Enthusiasts Join Us for Hackathons, Technical Events, Open Source, Internship Opportunities, and various upcoming opportunities to learn different technologies.">
+	<meta name="keywords" content="Community,Hackathons,Technical Events,Open Source,Internship Opportunities  ">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="English">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://community.tech/">
+	<meta property="og:title" content="Community">
+	<meta property="og:description"
+		content="Community is the Community of Coding Enthusiasts Join Us for Hackathons, Technical Events, Open Source, Internship Opportunities, and various upcoming opportunities to learn different technologies.">
+
+	<!-- open graph image for all social media -->
+	<meta property="og:image" itemprop="image" content="assets\img\HackedLogo.png">
+	<meta property="og:image:width" content="800" />
+	<meta property="og:image:height" content="420" />
+	<!-- open graph image for all social media -->
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA">
+	<meta property="twitter:title" content="hackedbyjh">
+	<meta property="twitter:description"
+		content="hackedbyjh is the Community of Coding Enthusiasts Join Us for Hackathons, Technical Events, Open Source, Internship Opportunities, and various upcoming opportunities to learn different technologies.">
+
+	<!-- index style ghcss  -->
+	<link rel="stylesheet" href="./CSS/index.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="assets/fonts/line-icons.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Owl carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.css">
+
+	<!--Swiper JS-->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="assets/css/swipper.css">
+	<!-- Animate -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- animate-on-scroll -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Main Style -->
+	<link rel="stylesheet" href="assets/css/blog.css">
+	<link rel="stylesheet" href="assets/css/oppurtunity.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- CONTACT-SECTION -->
+	<link rel="stylesheet" href="/assets/css/contactSection.css">
+
+
+	<!-- Responsive Style -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="shortcut icon" href="assets\img\HackedLogo.png" type="image/x-png">
+
+	<!-- darkmode css -->
+	<link rel="stylesheet" href="./assets/css/darkmode.css">
+
+	<!-- javascript for the fetching contributors form github api -->
+	<script src="./JS/index.js" async defer></script>
+
+	<!-- counter imports -->
+	<script src="assets/js/jquery-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="https://bfintal.github.io/Counter-Up/jquery.counterup.min.js"></script>
+	<!-- counter imports end-->
+	<!-- animate on scroll import -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- animate on scroll import end -->
+
+</head>
+
+<body>
+
+	<!-- Header Area wrapper Starts -->
+	<header id="header-wrap">
+		<!-- Navbar Start -->
+		<nav class="navbar navbar-expand-md bg-white fixed-top scrolling-navbar">
+			<div class="container nav_container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<a href="index.html" class="navbar-brand"> <img src="assets\img\HackedLogo.png"
+						alt="-Community-Website logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="lni-menu"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+						<li class="nav-item active">
+							<a class="nav-link" href="#hero-area">
+								Home
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">
+								About
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonials">
+								Team
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#events">
+								Events
+							</a>
+						</li>
+
+
+						<li class="nav-item">
+							<a class="nav-link" href="#blog">
+								Blogs
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Resources.html" target="_blank">
+								Resources
+							</a>
+						</li>
+
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA" target="_blank">
+								Contact
+							</a>
+						</li>
+
+
+
+
+
+
+
+
+
+						<li class="nav-item">
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Navbar End -->
+
+		<!-- Hero Area Start -->
+		<div id="hero-area" class="hero-area-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+						<div class="contents">
+
+							<h2>Hacked by JH </h2>
+							<p>hacked by JH is a Community of more than 400+ Coding Enthusiasts,
+								where we organize Open Source Programs, Hackathons, and Events on various emerging
+								technologies and domains.
+								Additionally, we share guided roadmaps, 1:1 Mentorship from Mentors and Resources to
+								learn different technologies.
+
+
+								<div class="header-button" data-aos="fade-right" data-aos-duration="2000">
+
+									<a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA" target="_blank"
+										class="btn btn-common">
+										<i class="fa fa-brands fa-whatsapp"></i>
+										Join
+
+										Now</i></a>
+									<a href="#about" class="btn btn-outline-warning btn-common video-popup">
+										<i class=" fa fa-sharp fa-solid fa-graduation-cap"></i>Learn
+										More</i></a>
+								</div>
+
+
+								<br>Join the community on whatsapp for interaction with developers from all over India.
+
+
+							</p>
+							<br>
+
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+						<div class="intro-img">
+							<img class="img-fluid" src="assets/img/Marketing-pana.png"
+								alt="Introduction mobile picture">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Hero Area End -->
+
+
+	</header>
+	<!-- Header Area wrapper End -->
+
+	<!-- Services Section Start -->
+	<section id="services" class="section-padding">
+		<div class="container">
+			<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+				<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Join Us Here</h2>
+				<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+			</div>
+			<div class="row">
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12" data-aos="fade-up" data-aos-duration="1500">
+					<div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+						<div class="icon">
+							<a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA" target="_blank">
+								<i class="fab fa-discord" style="color:#7289d9;" onmouseover="this.style.color='white'"
+									onmouseout="this.style.color='#7289d9'"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA">Discord Server</a></h3>
+							<p> Join in the discord community and connect with like minded people across the country.
+							</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12" data-aos="fade-up" data-aos-duration="1500">
+					<div class="services-item wow fadeInRight" data-wow-delay="0.6s">
+						<div class="icon">
+							<a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA" target="_blank">
+								<i class="fab fa-telegram " style="color:#0088cc;"
+									onmouseover="this.style.color='white'" onmouseout="this.style.color='#0088cc'"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA">Telegram Group</a></h3>
+							<p> Do not forget to follow us on telegram to stay updated about all the upcoming programs,
+								openings and internships.
+
+							</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12" data-aos="fade-up" data-aos-duration="1500">
+					<div class="services-item wow fadeInRight" data-wow-delay="0.9s">
+						<div class="icon">
+							<a href="https://www.linkedin.com/company/hacked-jh/" target="_blank">
+								<i class="fab fa-linkedin" style="color: #0A66C2;"
+									onmouseover="this.style.color='white'" onmouseout="this.style.color='#0A66C2'"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="https://www.linkedin.com/company/hacked-jh/">LinkedIn Page</a>
+							</h3>
+							<p> Follow the official page of Hacked-jh where we regularly post about all the
+								upcoming
+								workshops and
+								events. </p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12" data-aos="fade-up" data-aos-duration="1500">
+					<div class="services-item wow fadeInRight" data-wow-delay="1.2s">
+						<div class="icon">
+							<a href="https://github.com/hackedbyjh/hackedbyjh" target="_blank">
+								<i class="fab fa-github" style="color:#171515;" onmouseover="this.style.color='white'"
+									onmouseout="this.style.color='#171515'"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="https://github.com/hackedbyjh/hackedbyjh">Open Source
+									Project</a></h3>
+							<p> This is the GitHub repository of hacked-jh Website built using HTML,
+								CSS and
+								JavaScript and is Open Source. </p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12" data-aos="fade-up" data-aos-duration="1500">
+					<div class="services-item wow fadeInRight" data-wow-delay="1.5s">
+						<div class="icon">
+							<a href="https://twitter.com/settings/account?lang=en" target="_blank">
+								<i class="fab fa-twitter" style="color: #1DA1F2" ;
+									onmouseover="this.style.color='white'" onmouseout="this.style.color='#1DA1F2'"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="https://twitter.com/settings/account?lang=en">Twitter</a></h3>
+							<p> Follow the official Twitter page of hacked-jh and stay updated.
+							</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12" data-aos="fade-up" data-aos-duration="1500">
+					<div class="services-item wow fadeInRight" data-wow-delay="1.8s">
+						<div class="icon">
+							<a href="https://www.youtube.com/channeHnc_4ug" target="_blank">
+								<i class="fab fa-youtube" style="color:#FF0000;" onmouseover="this.style.color='white'"
+									onmouseout="this.style.color='#FF0000'"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="https://www.youtube.com/chac_4ug">YouTube Content</a>
+							</h3>
+							<p> Subscribe to the Youtube channel to not miss any upcoming webinar, tech events and
+								workshops. </p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Services Section End -->
+
+	<!-- About Section start -->
+	<div id="about" class="about-area section-padding">
+		<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+			<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Benefits of Joining Us</h2>
+			<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-xs-12 info">
+					<div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+						<div>
+							<div class="site-heading" data-aos="fade-left" data-aos-duration="1500">
+								<h2 class="section-title com">How does this community serve you?</h2>
+							</div>
+							<div class="content" data-aos="fade-up" data-aos-duration="1500">
+								<ul class="section-feature">
+									<li>&#x25BA;&nbsp; MENTOR'S GUIDE & SUPPORT</li>
+									<li>&#x25BA;&nbsp; HELP EVERYONE TO LEARN & GROW</li>
+									<li>&#x25BA;&nbsp; WORKSHOPS AND MEETING SESSIONS</li>
+									<li>&#x25BA;&nbsp; HACKATHONS & INTERNSHIP OPPORTUNITIES</li>
+									<li>&#x25BA;&nbsp; EXPOSURE TO STUDENTS & MENTORS AROUND THE WORLD</li>
+									<li>&#x25BA;&nbsp; GOODIES TO BEST PERFORMERS AND CONTRIBUTORS</li>
+								</ul>
+
+								<a href="./benefit.html" target="_blank" class="btn btn-common mt-3">Go to benefits
+									page</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
+					<img class="img-fluid" src="assets/img/about/Social biography-amico.png"
+						alt="Benefits page mobile picture">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- About Section End -->
+
+	<!-- Testimonial Section Start -->
+	<section id="testimonial" class="testimonial section-padding">
+
+		<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+			<h2 class="h2w section-title wow fadeInDown" data-wow-delay="0.3s">Meet Our Core Team</h2>
+			<div class="w shape wow fadeInDown" data-wow-delay="0.3s"></div>
+		</div>
+		<div class="container" data-aos="fade-up" data-aos-duration="1500">
+			<div class="row justify-content-center">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id="testimonials">
+						<div id="testimonials-slider">
+							<div class="swiper">
+								<div class="swiper-wrapper">
+
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="assets\img/arfat.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Arafat shaikh</h2>
+												<h3> Lead</h3>
+											</div>
+
+											<div class="media-icons">
+												<a href="https://github.com/nitehotri" target="_blank"><i
+														class="fab fa-github"></i></a>
+												<a href="https://www.linkedin.com/in/xaffi12/" target="_blank"><i
+														class="fab fa-linkedin"></i></a>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="assets\img/aada.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Danish Abdullah</h2>
+												<h3>Web and PR Lead
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://github.com/DanishAbdullahPy target=" _blank"><i
+														class="fab fa-github"></i></a>
+												<a href="https://www.linkedin.com/in/danish-abdullah-268214214/"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="assets\img/Abuzar.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Abuzar Akhtar</h2>
+												<h3>Ai/Ml lead
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://github.com/nithishrcta" target="_blank"><i
+														class="fab fa-github"></i></a>
+												<a href="https://www.linkedin.com/in/nithish-r-432339202"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/ashad.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Ashad naushad</h2>
+												<h3>Android Dev lead
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/shikha-chaturvedi-990817212"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+												<a href="https://github.com/Ashad target=" _blank"><i
+														class="fab fa-github"></i></a>
+
+											</div>
+
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/najeeb.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Najeeb Ahmad</h2>
+												<h3>DSA Mentor
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/najeeb-ahmad-498159241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+												<a href="https://github.com/NajeebAhmad00" target="_blank"><i
+														class="fab fa-github"></i></a>
+
+
+
+
+
+											</div>
+										</div>
+									</div>
+
+
+
+
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/kaunain.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Mohd Kaunain</h2>
+												<h3>Embedded system Mentor
+												</h3>
+											</div>
+
+											<div class="media-icons">
+												<a href="https://www.linkedin.com/in/md-kaunain-bin-mahtab-b2bb99230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/vanshika.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Vanshika Nagrajan</h2>
+												<h3> Data sceince Mentor
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://linktr.ee/vanshikanagarajan" target="_blank"><i
+														class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/shammy rj.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">shammy Raj</h2>
+												<h3>Data sceince co Lead
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/shammy-raj-3036a5220"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/safdar.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Safdar Mustafa</h2>
+												<h3>Community Manager
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/safdar-mustafa-a84883295"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/marwan.jpeg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Marwan syed</h2>
+												<h3>Media Person
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/marwansyed" target="_blank"><i
+														class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/sadiq.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Sadiq-Ameen</h2>
+												<h3>Pubplic Relation
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="http://linkedin.com/in/sadiq-ameen-657b90278"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/saquib.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Saquib sarfaraz</h2>
+												<h3>Community Manager
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/saquib-sarfaraz-1691b9292"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/afridiji.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Adnan Khan Afridi</h2>
+												<h3>Community Management
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/adnan-khan-afridi-46595129a"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/6.33.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Abdullah imteyaz khan
+												</h2>
+												<h3>Content lead
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com" target="_blank"><i
+														class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/6.33.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Nabeel Imran
+												</h2>
+												<h3>Co lead , management team
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/nabeel-imran-b58252209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/iqra khan.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Iqra khan
+												</h2>
+												<h3>Community co lead
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/iqra-khan-923816254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/hamza'.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Hamza
+												</h2>
+												<h3>Event Co-Lead, Management Member
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/hamza-ansari-355315221"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/zaid rizwi.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Syed Md Zaid Rizvi
+												</h2>
+												<h3>Social Media Co-lead
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/syed-md-zaid-rizvi-358468253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/6.33.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">UTSAV JHA
+												</h2>
+												<h3>SOCIAL MEDIA LEAD
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/utsav-jha-b3565b211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/2.3.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">ISRA IQBAL
+												</h2>
+												<h3>Content Co-lead
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+												<a href="https://www.linkedin.com/in/israiqbal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/1.2.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Ammar Ahmad Kidwai
+												</h2>
+												<h3>Design team co-lead
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="http://github.com/Amm4r03" target="_blank"><i
+														class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="assets\img/Alisha.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Alisha Moin</h2>
+												<h3>Social Media Team Lead
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/anas-khan-993aa91b7/"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="assets\img/asiya.jpeg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Asiya Irshad</h2>
+												<h3>Social Media Team co Lead
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/anas-khan-993aa91b7/"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/Affan yusuf.jpeg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Affan yusuf</h2>
+												<h3>Event Management Team
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/affan-yousuf-b17774218"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+												<a href="https://github.com/affan-yousuf-b17774218 target=" _blank"><i
+														class="fab fa-github"></i></a>
+
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/6.3.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Apoorv</h2>
+												<h3>Social media team member
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/apoorv654123?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/2.3.jpg" alt="Team members">
+											</div>
+											<div class="info">
+												<h2 class="text_dark"> kulsum</h2>
+												<h3>Event Team Management
+
+												</h3>
+											</div>
+
+											<div class="media-icons">
+
+												<a href="https://www.linkedin.com/in/im-kulsum-828b9b254?trk=contact-info"
+													target="_blank"><i class="fab fa-linkedin"></i></a>
+											</div>
+										</div>
+
+
+
+
+										<div class="swiper-slide">
+											<div class="testimonial-item">
+												<div class="img-thumb">
+													<img src="./assets/img/2.3.jpg" alt="Team members">
+												</div>
+												<div class="info">
+													<h2 class="text_dark"> kulsum</h2>
+													<h3>Event Team Management
+
+													</h3>
+												</div>
+
+												<div class="media-icons">
+
+													<a href="https://www.linkedin.com/in/im-kulsum-828b9b254?trk=contact-info"
+														target="_blank"><i class="fab fa-linkedin"></i></a>
+												</div>
+											</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class=" swiper-slide">
+												<div class="testimonial-item">
+													<div class="img-thumb">
+														<img src="./assets/img/ayaan.JPG" alt="Team members">
+													</div>
+													<div class="info">
+														<h2 class="text_dark">Mohd Ayan</h2>
+														<h3>Community Management
+														</h3>
+													</div>
+
+													<div class="media-icons">
+
+														<a href="https://www.linkedin.com/in/mohd-ayan-3185972a7"
+															target="_blank"><i class="fab fa-linkedin"></i></a>
+													</div>
+												</div>
+											</div>
+
+
+
+
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<button class="custom-button dark-mode" onclick="parent.location='teamMembers.html'">View
+							All</button>
+
+
+
+					</div>
+				</div>
+
+
+	</section>
+	<!-------------Founder Team------------->
+
+
+	</div>
+	</div>
+
+
+
+
+	</div>
+	</div>
+
+	</section>
+
+
+
+
+
+	<!-- Testimonial Section End -->
+
+	<!-- events section starts -->
+
+
+	<div class="events" id="events">
+		<div class="container" style="max-width: 94%;">
+			<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+				<h1 class="section-title wow fadeInDown mt-5" data-wow-delay="0.3s">Our <span> Events and Resources</h1>
+				<div class="shape wow fadeInDown" data-wow-delay="0.9s"></div>
+			</div>
+
+			<div class="events_container wow fadeInDown">
+
+				<div class="events_box_row">
+
+					<div class="theCard" data-aos="fade-up" data-aos-duration="1500">
+						<div class="events_box">
+							<div class="events_box_img">
+								<img src="assets\img\mern.png" class="events_img"
+									alt="Course on full stack development" />
+							</div>
+
+
+							<div class="content ">
+								<h4>Front stack Development</h4>
+								<p>Speaker : Free code camp.org
+								</p>
+								<p>Date of Event : 15/01/2022</p>
+								<a href="https://www.youtube.com/watch?v=nu_pCVPKzTk" class="btn btn-danger"
+									target="_blank">WATCH
+									NOW</a>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="theCard" data-aos="fade-up" data-aos-duration="1500">
+						<div class="events_box">
+							<div class="events_box_img">
+								<img src="assets\img\Event\ml.png" class="events_img"
+									alt="Course on Machine Learning" />
+							</div>
+							<div class="content">
+								<h4>Get Started With Machine Learning</h4>
+								<p>Speaker : Free Code camp.org </p>
+								<p>Date of Event : 21/09/2021</p>
+								<a href="https://youtu.be/lUSixxX9pK4" class="btn btn-danger" target="_blank">WATCH
+									NOW</a>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="theCard" data-aos="fade-up" data-aos-duration="1500">
+						<div class="events_box">
+							<div class="events_box_img">
+								<img src="./assets/img/crowd source.png" class="events_img"
+									alt="Googlr Crowdsource contribution image" />
+							</div>
+							<div class="content">
+								<h4>Google CrowdSource contribution<h4>
+										<p>Speaker : Google </p>
+										<p>Date of Event : 30/12/2021</p>
+										<a href="https://youtu.be/oLTNtvIHJ7M?si=XVBYlF458A8AEJVu"
+											class="btn btn-danger">recorded</a>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="theCard" data-aos="fade-up" data-aos-duration="1500">
+						<div class="events_box">
+							<div class="events_box_img">
+								<img src="./assets/img/open.png" class="events_img" alt="Googlr  contribution image" />
+							</div>
+							<div class="content">
+								<h4>Open Source for beginner</h4>
+								<p>Speaker : Piyush Garg</p>
+								<p>Date of Event : 30/12/2021</p>
+								<a href="https://www.youtube.com/live/tlJVWvzOnlw?si=yZKL6-zB5CEqDyOy"
+									class="btn btn-danger">Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="theCard" data-aos="fade-up" data-aos-duration="1500">
+						<div class="events_box">
+							<div class="events_box_img">
+								<img src="./assets/img/cyber.jpg" class="events_img"
+									alt="Googlr Crowdsource contribution image" />
+							</div>
+							<div class="content">
+								<h4>Cyber security For beginners</h4>
+								<p>Resources: </p>
+								<p>Date of Event : 30/12/2021</p>
+
+								<a href="https://youtu.be/y9Cr_VW1dGA?si=_wjJUZO-7OMy__Fc" class="btn btn-danger"
+									target="_blank">WATCH
+									NOW</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="theCard" data-aos="fade-up" data-aos-duration="1500">
+						<div class="events_box">
+							<div class="events_box_img">
+								<img src="assets\img\pppppp.jpg" class="events_img lazyload"
+									alt="Hacktoberfest event image" />
+							</div>
+							<div class="content">
+								<h4> Introduction to HACKTOBERFEST' 2021</h4>
+								<p>Speaker : Danish Abdullah ex Synalgo Engineer</p>
+								<p>Date of Event : 11/10/2021</p>
+								<a href="https://youtu.be/kxbTQYoWK_4?si=Rh9nnlkyiGWqgcws" class="btn btn-danger"
+									target="_blank">WATCH
+									NOW</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Events section end-------------------------->
+
+
+
+
+	<!-- Opportunity end -->
+
+
+
+	<!--Blog Section Start -->
+
+	<div id="blog" class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+		<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Blogs</h2>
+		<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+	</div>
+	<div class="container_blog">
+		<div class="blog" data-aos="fade-up" data-aos-duration="1500">
+			<div class="image">
+				<img src="assets/img/APIs.png" alt="Iot blog image">
+			</div>
+			<div class="blog_content" id="content">
+				<!--  <a data-aos="fade-up" data-aos-duration="1500" href="https://simpleprogrammer.com/iot-influence-industry/" -->
+				<div class="head">
+					Databricks’ Ryan Boyd Highlights Strategies for API
+				</div>
+				<!--</a> -->
+				<div class="description">
+					Developing an API strategy can be broken down into four stages. This series of articles examines the
+					fourth
+					stage
+				</div>
+				<a href="https://www.programmableweb.com/news/databricks-ryan-boyd-highlights-strategies-online-meetups/analysis/2021/02/04"
+					target="_blank" class="read_btn" data-aos="fade-up">
+					Go to blog</a>
+			</div>
+		</div>
+
+
+
+
+
+		<div class="blog aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+
+			<div class="image" style="max-width: 50rem;">
+				<img src="assets/img/bogo.png" alt="Github developer team blog image">
+			</div>
+
+			<div class="blog_content" id="content">
+				<div class="head">
+					Complete Android App Development Roadmap For Beginners</div>
+
+				<div class="description">
+					Android Development is the gateway to creating powerful and intuitive mobile applications for the
+					world's most widely used operating system. As an Android developer, you dive into the world of Java
+					or Kotlin.
+				</div>
+				<a href="https://shashankranjan.hashnode.dev/complete-android-app-development-roadmap-for-beginners"
+					class="read_btn align-items-center justify-content-center mt-5 ">Go to Blog</a>
+			</div>
+
+		</div>
+
+
+
+
+
+		<div class="blog" data-aos="fade-up" data-aos-duration="1500">
+			<div class="image">
+				<img src="assets/img/machine.avif" class="lazyload" alt="AI and ML blog image">
+			</div>
+			<div class="blog_content" id="content">
+				<div class="head">
+					Complete Machine Learning Roadmap </div>
+				<!--  </a>-->
+				<div class="description">
+					Fantastic! You've heard about the hype: machine learning. So, you came here to become an ML master,
+					right?
+
+					Ok. Before we begin, let me introduce you to the regular machine-learning workflow. Based on this,
+					we'll develop the roadmap so that you can harvest the best results!
+				</div>
+				<a href="https://senathenu.hashnode.dev/machine-learning-roadmap" target="_blank" class="read_btn"
+					data-aos="fade-up">Go to
+					blog</a>
+			</div>
+		</div>
+
+
+
+		<div class="blog" data-aos="fade-up" data-aos-duration="1500">
+			<div class="image">
+				<img src="assets/img/how-to-be-a-full-stack-developer.png" class="lazyload" alt="AI and ML blog image">
+			</div>
+			<div class="blog_content" id="content">
+				<div class="head">
+					How to Become a Full-Stack Developer in 2024
+				</div>
+				<!--  </a>-->
+				<div class="description">
+					Being a Full Stack Developer requires extensive knowledge and continuous learning, as the tech field
+					is ever-evolving. It's not limited to a specific number of technologies, so a constant learning
+					attitude is crucial. In this blog, I'm providing a solid roadmap that you can follow to become a
+					full-stack developer in 2024.
+				</div>
+				<a href="https://medium.com/@Evelyn.Taylor/web-developer-roadmap-2023-beginners-guide-f4eb61e94783"
+					target="_blank" class="read_btn" data-aos="fade-up">Go to
+					blog</a>
+			</div>
+		</div>
+
+
+
+
+		<div class="blog" data-aos="fade-up" data-aos-duration="1500">
+			<div class="image">
+				<img src="assets/img/intern.jpg" class="lazyload" alt="AI and ML blog image">
+			</div>
+			<div class="blog_content" id="content">
+				<div class="head">
+					How to Spot a Fake Internship
+				</div>
+				<!--  </a>-->
+				<div class="description">
+					You finally find what you believe is a ‘perfect match’ and apply, ace the interview and get an
+					internship offer. You show up on the first day, excited to work with a company offering real
+					experience in a field you love
+				</div>
+				<a href="https://www.e4c.tech/post/how-to-spot-a-fake-internship-1"
+					target="_blank" class="read_btn" data-aos="fade-up">Go to
+					blog</a>
+			</div>
+		</div>
+
+
+
+		<!-- blog 2 -->
+		<div class="blog" data-aos="fade-up" data-aos-duration="1500">
+			<div class="image">
+				<img src="https://www.ukri.org/wp-content/uploads/2020/11/EPSRC-261120-ArtificialIntelligence-GettyImages-1206796363.jpg"
+					class="lazyload" alt="AI and ML blog image">
+			</div>
+			<div class="blog_content" id="content">
+				<div class="head">
+					6 Trends in Artificial Intelligence (AI) and Machine Learning (ML) in 2022
+				</div>
+				<!--  </a>-->
+				<div class="description">
+					Artificial intelligence (AI) and machine learning (ML) are two of the most used terms that are
+					not
+					confined in
+					a specific domain but have universal adoption
+				</div>
+				<a href="https://simpleprogrammer.com/trends-ai-and-ml-2022/" target="_blank" class="read_btn"
+					data-aos="fade-up">Go to
+					blog</a>
+			</div>
+		</div>
+
+
+	</div>
+	<button class="btn btn-common opportunity_btn opportunity_btn_t"><a href="./blog.html">View All</a>
+	</button>
+	<br><br>
+	<!-- Blog Section End-->
+
+	<!-- Testimonial Section Start -->
+	<section id="testimonial1" class="testimonial-community section-padding">
+		<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+			<h2 class="section-title wow fadeInDown text_dark" data-wow-delay="0.3s">Testimonials</h2>
+			<div class="shape-testimonial wow fadeInDown" data-wow-delay="0.3s"></div>
+			<div class="bio-testimonial wow fadeInDown">What does the community have to say about us?</div>
+		</div>
+		<div class="container" data-aos="fade-up" data-aos-duration="1500">
+			<div class="row justify-content-center">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id="testimonials">
+						<div id="testimonials-slider">
+							<div class="swiper">
+								<div class="swiper-wrapper">
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/team/avi-richards-Z3ownETsdNQ-unsplash.jpg"
+													alt="">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Muhammad Samiullah </h2>
+												<h3>I learned about Hacktoberfest and contributed to open source
+													projects
+													in Hacked-jh Community github repo on october 3rd.
+													I am extremely excited to tell you that my project got merged with
+													Microsoft academic content.
+													Thank you, I learn a lot by contributing in Hacked-jh</h3>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/team/guillaume-bolduc-xTXHcmg9cj0-unsplash.jpg"
+													alt="">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Sameer
+												</h2>
+												<h3>Never thought programming would be
+													that easy and interesting. Community based learning is just awesome.
+													Mentors are really helpful and helped a lot during my coding
+													journey.
+													Thank You, HackedJh
+													so much for providing this help.</h3>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+
+												<img src="./assets/img/team/pexels-andrea-piacquadio-1846690.jpg"
+													alt="">
+											</div>
+											<div class="info">
+												<h2>Ayush Raj
+												</h2>
+												<h3>HackedJh have helped me to start the open
+													source.The members of this community is so cooperative. Due to this
+													community
+													only, I realised the importance of community learning in the tech
+													field.
+													I would thank Hacked-jh for accepting me in and for providing
+													so much support.</h3>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/team/pexels-omar-lópez-1182825.jpg" alt="">
+											</div>
+											<div class="info">
+												<h2>Moin Ali
+												</h2>
+												<h3>My journey in programming started with HackedJh. My first-ever
+													contribution here stirred such an interest in the fundamentals of
+													coding. Thanks to the HackedJh Community for providing such an
+													amazing start.
+												</h3>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+
+												<img src="./assets/img/team/pexels-burst-373899.jpg" alt="">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Aamir</h2>
+												<h3>To me, data science means passion, community, possibilities,
+													support, and creativity. Through his
+													content, Hacked-jh is creating inclusive spaces where all of those
+													can come together.</h3>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+
+												<img src="./assets/img/team/pexels-daniel-xavier-1121796.jpg" alt="">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Ayan</h2>
+												<h3>To me, cybersecurity embodies the essence of safeguarding digital
+													landscapes, and AI amplifies our capabilities to predict, detect,
+													and respond to evolving threats. Through the insightful content
+													provided by figures like Hacked-jh iam Thankful.</h3>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+
+												<img src="./assets/img/team/jake-young-iR3dtvKmwAw-unsplash.jpg" alt="">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Ameen</h2>
+												<h3>The way to start an open source project
+													is not to look at technology fields,but to
+													look for real world problems that can be
+													solved and for this Hacked-jh community has
+													helped me alot since it was my very first
+													experience which this commmunity made easy.
+													Thank You for doing amazing work.</h3>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+												<img src="./assets/img/team/irene-strong-TMt3JGoVlng-unsplash.jpg"
+													alt="Hrithik Raj">
+											</div>
+											<div class="info">
+												<h2>Mohd Salah
+												</h2>
+												<h3>Being part of Hacked-jh's community has been an amazing experience
+													in web development.Truly, it's an
+													environment that boosts learning and growth. Grateful to be a part
+													of it!.</h3>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="testimonial-item">
+											<div class="img-thumb">
+
+												<img src="./assets/img/team/harry-cunningham-EPi3TRQc5Z0-unsplash.jpg"
+													alt="">
+											</div>
+											<div class="info">
+												<h2 class="text_dark">Alhaan</h2>
+												<h3>Heap aur stack allocation, dynamic memory allocation in languages
+													like C, aur malloc aur free jaise concepts ko explore karna ek
+													badalne wale anubhav tha. Hack Club ki community ki guidance ne yeh
+													seemingly complex topics ko accessible aur exciting bana diya Thanks
+													Hacked-Jh
+													</b>. </h3>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+	</section>
+
+
+	<!-- join us start -->
+	<section id="joinushere" class="section-padding">
+		<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+			<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Join Our Team</h2>
+			<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+		</div>
+		<br>
+
+		<div class="oppurtunity_section">
+
+			<div class="card">
+				<img class="card-img-top" src="assets\img\HackedLogo.png" alt="Core image">
+				<div class="card-body">
+
+
+					<h5 class="card-title text-center text_dark">Join our Core Team</h5>
+					<a href="https://forms.gle/KUR6Sg7WxuZcSECe6" class="btn btn-common opportunity_btn" type="button"
+						target="_blank">
+
+
+						Join Us
+					</a>
+					<br> <br>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<img class="card-img-top" src="assets\img\HackedLogo.png" alt="mentors">
+				<div class="card-body">
+
+
+					<h5 class="card-title text-center text_dark">Join Our Mentor Team</h5>
+					<a href="https://forms.gle/5vst4FpM9qveehv4A" class="btn btn-common opportunity_btn" type="button"
+						target="_blank">
+
+
+						Join Us
+					</a>
+					<br> <br>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<img class="card-img-top" src="assets\img\HackedLogo.png" alt="volunteer">
+				<div class="card-body">
+
+
+					<h5 class="card-title text-center text_dark">Join Our Volunteer Team</h5>
+					<a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA" class="btn btn-common opportunity_btn"
+						type="button" target="_blank">
+
+
+						Join Us
+					</a>
+					<br> <br>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		<br>
+		<br>
+	</section>
+
+	<!-- join us end -->
+
+	<!-- counter starts -->
+	<div class="counter-up ">
+		<div class="content container wow fadeInDown animated">
+			<div class="box">
+				<div class="icon"><i class="fas fa-users"></i></div>
+				<div class="d-flex align-items-center">
+					<h1 class="counter">1000</h1>
+					<p style="font-size: 50px;color: white;"> +</p>
+				</div>
+				<div class="text">Community members</div>
+			</div>
+			<div class="box">
+				<div class="icon"><i class="far fa-calendar"></i></div>
+				<div class="d-flex align-items-center">
+					<h1 class="counter">45</h1>
+					<p style="font-size: 50px;color: white;"> +</p>
+				</div>
+				<div class="text">Events</div>
+			</div>
+			<div class="box">
+				<div class="icon"><i class="fas fa-graduation-cap"></i></div>
+				<div class="d-flex align-items-center">
+					<h1 class="counter">300</h1>
+					<p style="font-size: 50px;color: white;"> +</p>
+				</div>
+				<div class="text">Opportunities Provided</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- counter ends -->
+
+
+
+
+	<!---- Community partner
+    ==================================== -->
+
+	<!--
+       End  Community partner
+        ==================================== -->
+
+	<!-- FAQs section start	 -->
+	<section id="FAQs" class="FAQs_section">
+		<div class="container" data-aos="fade-up" data-aos-duration="1500">
+			<h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">FAQs</h1>
+			<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+
+			<br>
+
+			<button class="accordionFAQs" data-toggle="collapse" data-target="#collapseOne">What Hacked Jh? </button>
+			<div class="panelFAQs">
+				<p class="panelParaFAQs">Hacked Jh is the Community of more than 1000+ Coding Enthusiasts, where we
+					organize Events, Hackathons, and Workshops on different Technologies. Also, We Share Resources,
+					Roadmaps to learn different technologies and share opportunities related to Internships and
+					different tech programs.</p>
+			</div>
+
+			<button class="accordionFAQs">How to join the community as a member?</button>
+			<div class="panelFAQs">
+				<p class="panelParaFAQs"><a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">
+
+						JOIN US NOW</a> on our discord server and become a valued member of our community. <br><a
+						href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA">CLICK HERE</a> to join us on your
+					favourite platforms.
+				</p>
+			</div>
+
+			<button class="accordionFAQs">How to join the organising Team?</button>
+			<div class="panelFAQs">
+				<p class="panelParaFAQs">
+					<a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA">CLICK HERE </a> to join our Core Team<br>
+					<a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA">CLICK HERE </a> to join our Mentor
+					Team<br>
+					<a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA">CLICK HERE </a> to join our Volunteer
+					Team<br><br>
+					<b>Perks of joining our community -</b><br>
+					We always believe in rewarding people who are doing great in our community, and helping the students
+					to learn and grow. We provide goodies to the best contributors and LOR based on their performance.
+				</p>
+			</div>
+			<button class="accordionFAQs">What are the benefits of joining Hacked-jh ?</button>
+			<div class="panelFAQs">
+				<p class="panelParaFAQs">
+					<ul>
+						<li class="FAQsLi">&#x25BA;&nbsp; MENTOR'S GUIDE & SUPPORT</li>
+						<li class="FAQsLi">&#x25BA;&nbsp; HELP EVERYONE TO LEARN & GROW</li>
+						<li class="FAQsLi">&#x25BA;&nbsp; WORKSHOPS AND MEETING SESSIONS</li>
+						<li class="FAQsLi">&#x25BA;&nbsp; HACKATHONS & INTERNSHIP OPPORTUNITY</li>
+						<li class="FAQsLi">&#x25BA;&nbsp; EXPOSURE TO STUDENTS & MENTORS AROUND THE WORLD</li>
+						<li class="FAQsLi">&#x25BA;&nbsp; GOODIES TO BEST PERFORMERS AND CONTRIBUTORS</li>
+						<br>
+					</ul>
+			</div>
+			<button class="accordionFAQs">What type of events do we conduct?</button>
+			<div class="panelFAQs">
+				<p class="panelParaFAQs">We organize Events, Hackathons, and Workshops on different Technologies. Also,
+					We Share Resources, Roadmaps to learn different technologies.<a href="#events">CLICK HERE</a> to
+					check Our Events.</p>
+			</div>
+		</div>
+		<script>
+			var acc = document.getElementsByClassName("accordionFAQs");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function () {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.maxHeight) {
+						panel.style.maxHeight = null;
+					} else {
+						panel.style.maxHeight = panel.scrollHeight + "px";
+					}
+				});
+			}
+		</script>
+	</section>
+
+	<!-- FAQs section ends	 -->
+
+
+	<!-- Contact Section End -->
+	<!-- Contributors section -->
+
+	<!--End of Tawk.to Script-->
+
+
+	<!-- Footer Section Start -->
+	<footer id="footer" class="footer-area section-padding">
+		<div class="container">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+						<div class="widget">
+							<h3 class="footer-logo">Hacked by JH</h3>
+							<div class="textwidget">
+								<p>Hacked by JH Community is the Community of Coding Enthusiasts on Discord. Together We
+									aim
+									to explore the
+									untouched world of technology and Tremendous growth-making fields.</p>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+						<h3 class="footer-titel">Quick Links</h3>
+						<ul class="footer-link">
+							<li><a href="#hero-area">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#testimonials">Team</a></li>
+							<li><a href="#events">Events</a></li>
+							<li><a href="#testimonial1">Testimonals</a></li>
+							<li><a href="#opportunity">Opportunity</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+						<h3 class="footer-titel">Join Us</h3>
+						<ul class="footer-link">
+							<li><a href="#events">Events</a></li>
+							<!-- <li><a href="#">Hackathons</a></li> -->
+							<!-- <li><a href="#">Open Source</a></li> -->
+							<li><a href="https://chat.whatsapp.com/JtQgOknBrOCCgoWsl49DkA" target="_blank">Volunteer
+									Group</a></li>
+							<li><a href="https:/.bio.link/">Community</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+						<h3 class="footer-news">Want to stay update?<br>
+							Subscribe to our Newsletter :)</h3>
+						<p class="text-light mb-2">Subscribe to get latest updates.</p>
+						<div class="mail d-flex">
+							<input type="email" id="Email" placeholder="Enter your email" />
+							<a type="submit" id="btns" label="submit" placeholder="submit">Submit</a>
+						</div>
+
+
+						<!-- Modal to trigger after submitting the newsletter form -->
+						<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+							aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLongTitle">
+											<p class="text_dark" id="subscribeTitle"></p>
+										</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<p class="text_dark" id="suscribeMsg"></p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-warning"
+											data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<h3 class="contact-footer mt-5">Contact</h3>
+						<ul class="address">
+							<li>
+								<a
+									href="https://www.google.com/mapst+Bengal/@23.6834541,86.8541898,11z/data=!3m1!4b1!4m5!3m4!1s0x39f71f0ea1022529:0xf888f7e7fd11cefe!8m2!3d23.6888636!4d86.9660638"><i
+										class="fas fa-map-marked-alt"></i> Location: Hamdard Nagar New
+									Delhi,India-110044</a>
+							</li>
+							<li>
+								<a href="mailto:community@gmail.com"><i class="fas fa-envelope"></i> Email:
+									hackedbyjh@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="socials">
+			<li>
+				<a class="linkedin" href="https://www.linkedin.com/company/hacked-jh/" target="_blank">
+					<i class="fab fa-linkedin" style="color: rgb(10,102,194);" onmouseover="this.style.color='white'"
+						onmouseout="this.style.color='#0A66C2'"></i></a>
+			</li>
+			<li>
+				<a class="discord" href=" https://github.com/hackedbyjh/hackedbyjh" target="_blank"><i
+						class="fab fa-discord" style="color:#7289d9;" onmouseover="this.style.color='white'"
+						onmouseout="this.style.color='#7289d9'"></i></a>
+			</li>
+			<li>
+				<a class="telegram" href="https://github.com/hackedbyjh/hackedbyjh" target="_blank"><i
+						class="fab fa-telegram" style="color:#0088cc;" onmouseover="this.style.color='white'"
+						onmouseout="this.style.color='#0088cc'"></i></a>
+			</li>
+			<li>
+				<a class="github" href="https://github.com/hackedbyjh/hackedbyjh" target="_blank"><i
+						class="fab fa-github" style="color:#171515;" onmouseover="this.style.color='white'"
+						onmouseout="this.style.color='#171515'"></i></a>
+			</li>
+			<li>
+				<a class="youtube" href="https://www.youtube.com/channel/" target="_blank"><i class="fab fa-youtube"
+						style="color:#FF0000;" onmouseover="this.style.color='white'"
+						onmouseout="this.style.color='#FF0000'"></i></a>
+			</li>
+			<li>
+				<a class="twitter" href="https://www.linkedin.com/in/xaffi12/" target="_blank"><i class="fab fa-twitter"
+						style="color: #1DA1F2" ; onmouseover="this.style.color='white'"
+						onmouseout="this.style.color='#1DA1F2'"></i></a>
+			</li>
+		</ul>
+		</div>
+		<div id="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright-content">
+							<p>Copyright © <span class="year"></span> <a rel="nofollow" href="#">hackedJh</a> All Right
+								Reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer Section End -->
+
+	<!-- Go to Top Link -->
+	<!-- <a href="#" class="back-to-top">
+		<i class="lni-arrow-up"></i>
+	</a> -->
+
+	<!-- Preloader -->
+	<!-- <div id="preloader">
+		<div class="loader" id="loader-1"></div>
+	</div> -->
+	<!-- End Preloader -->
+
+	<!--navigate to top button -->
+	<!-- <div id="navtbut" class="disappear">
+		<a href="#top">
+			<button id="buttontop">
+				<i class="material-icons">arrow_upward</i>
+			</button>
+		</a>
+	</div> -->
+	<!-- end navigate to top button -->
+
+	<!-- darkmode fitur -->
+	<div class="darkmode animate__animated animate__bounceInLeft animate__delay-1s">
+		<button class="animate__animated animate__bounceIn animate__delay-2s">
+			<i data-feather="moon" class="moon"></i>
+			<i data-feather="sun" class="sun"></i>
+		</button>
+	</div>
+	<!-- finish fitur -->
+
+	<!-- counter scripts -->
+
+	<script src="./JS/Counter1.js"></script>
+	<!--JS Function allocated to JS Folder-->
+	<!-- counter scripts end -->
+
+	<!--navigate to top button script-->
+	<script>
+		// initialize AOS
+		AOS.init({
+			disable: function () {
+				if (window.innerWidth > 767) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+		});
+		//initialize AOS ends
+
+		navtbut = document.getElementById("navtbut");
+
+		var navToTop = function () {
+			var y = window.scrollY;
+			if (y >= 220) {
+				navtbut.className = "appear"
+			} else {
+				navtbut.className = "disappear"
+			}
+		};
+
+		window.addEventListener("scroll", navToTop);
+	</script>
+	<!-- emailjs cdn -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+	<!-- emailjs cdn -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/jquery.nav.js"></script>
+	<script src="assets/js/scrolling-nav.js"></script>
+	<script src="assets/js/jquery.easing.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/form-validator.min.js"></script>
+	<script src="assets/js/contact-form-script.min.js"></script>
+
+	<!--Swiper JS-->
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="assets/js/swipper.js"></script>
+
+	<!-- Vanilla Tilt -->
+	<script src="./assets/vanilla-tilt/dist/vanilla-tilt.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
+		integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<!-- icon feather -->
+	<script src="https://unpkg.com/feather-icons"></script>
+	<!-- end icon feather -->
+	<!-- jquery -->
+	<script src="./assets/js/jquery-3.5.1.min.js"></script>
+	<!-- darkmode -->
+	<script src="./assets/js/darkmode.js"></script>
+
+
+
+	<!------------------------SCROLL TO TOP - Made by ANIKET SINHA - HACKTOBER FEST 2022------------------------>
+
+	<button type="button" class="btn btn-warning btn-xs" id="btn-back-to-top">
+		<i class="fas fa-arrow-circle-up"></i>
+	</button>
+
+	<style>
+		#btn-back-to-top {
+			position: fixed;
+			bottom: 80px;
+			size: 10px;
+			right: 10px;
+			display: none;
+			color: azure;
+		}
+
+		#btn-back-to-top:hover {
+			background-color: azure;
+		}
+
+		#btn-back-to-top:hover i {
+			color: #ffd100;
+		}
+	</style>
+
+	<script>
+		//Get the button
+		let mybutton = document.getElementById("btn-back-to-top");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () {
+			scrollFunction();
+		};
+
+		function scrollFunction() {
+			if (
+				document.body.scrollTop > 0 ||
+				document.documentElement.scrollTop > 0
+			) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		mybutton.addEventListener("click", backToTop);
+
+		function backToTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+	<style>
+		.nav-item a:active {
+			color: #ffd100 !important;
+		}
+	</style>
+
+</body>
+
 </html>
